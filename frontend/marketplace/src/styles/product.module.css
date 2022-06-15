@@ -1,0 +1,154 @@
+/**For Product Component **/
+.nav{
+    padding: 5px;
+    background-color: #F5F5F5;
+    text-align: center;
+    color: #666666;
+}
+
+.homeText{
+    text-align: center;
+    cursor: pointer;
+}
+
+.homeText:hover{
+    color: black;
+}
+
+.logOut{
+    float: right;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logOut:hover{
+    color: black;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 300px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: all 0.5s ease;
+    margin-top: 20px;
+    object-fit: cover;
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.brand{
+    font-size: 22px !important;
+    font-weight: 200 !important;
+    padding-left: 5px !important;
+}
+
+.price{
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    padding-left: 5px !important;
+}
+
+
+/**For Product Page **/
+
+.product{
+    margin-top: auto;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+    cursor: pointer;
+    height: 300px;
+}
+
+
+
+.img{
+    width: 500px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+.hr{
+    border: none;
+    background-color: black;
+    height: 1px;
+}
+
+.desc{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.price{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 5px 0px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.modify{
+    padding: 3px;
+    background-color: rgb(60, 184, 49);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete{
+    padding: 3px;
+    background-color: rgb(241, 43, 43);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.user {
+    font-size: 12px;
+    padding: 5px 0px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: underline;
+}
+
+.additionalInfo{
+    background-color: #F1F1F1;
+    padding: 10px 30px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.nestedInfo{
+    width: 90%;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}

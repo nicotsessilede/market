@@ -1,0 +1,83 @@
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.wholeCard{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profileCard{
+    position: relative;
+    background-color: #2F2F2F;
+    width: 100%;
+    height: 30vh;
+}
+
+.profilePicture{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -40%;
+    left: 5%;
+    transform: translate(5%, 10%);
+}
+
+.otherPart{
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 20%;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    height: 80%;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    width: 50%;
+    color: white;
+}
+
+.iconBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon{
+    font-size: 65px;
+    cursor: pointer;
+}
+
+.home{
+    background-color: #F5F5F5;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.homeText{
+    cursor: pointer;
+    color: #666666;
+}
+
+.homeText:hover{
+    color: black;
+}

@@ -1,0 +1,87 @@
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
+.links .link {
+  padding: 20px;
+  margin: 30px auto;
+  font-size: 25px;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 30%;
+  background-color: white;
+  padding: 10px 40px;
+}
+
+.box span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F1F1F1;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #FCB800;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/*# sourceMappingURL=Signup.css.map */

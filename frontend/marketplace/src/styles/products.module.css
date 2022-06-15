@@ -1,0 +1,45 @@
+.nav{
+    padding: 5px;
+    background-color: #F5F5F5;
+    text-align: center;
+    color: #666666;
+}
+
+.logOut{
+    float: right;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logOut:hover{
+    color: black;
+}
+
+.productsBody{
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+}
+
+.middle{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /**display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;*/
+    width: 85%;
+    width: clamp(85%, 600px, 100%);
+    margin: 0px auto 15px auto;
+    
+   
+}

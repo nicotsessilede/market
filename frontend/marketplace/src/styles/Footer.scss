@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px 15px;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid #c5c1c1;
+
+    hr {
+        width: 100%;
+    }
+
+    .icons{
+        font-size: 30px;
+        cursor: pointer;
+        color: #b4afaf;
+
+        .face:hover {
+            color: #4267B2;
+            transition: all 0.5 ease;
+        }
+
+        .insta:hover {
+            color: #8a3ab9;
+            transition: all 0.5 ease;
+        }
+
+        .twitter:hover {
+            color: #00ACEE;
+            transition: all 0.5 ease;
+        }
+    }
+
+    span{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
